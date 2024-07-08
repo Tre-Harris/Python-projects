@@ -1,0 +1,10 @@
+def atm(balance, withdraw):
+   deposit_cash = int(input("How much money would you like to deposit?"))
+   withdtaw = int(input("How much would you like to withdraw?"))
+   if (withdraw > balance):
+       print("Unable to withdraw")
+   elif (balance >= withdtaw):
+       print( balance - withdtaw)
+       print("Your withdraw balance is ", balance - withdtaw)
+   return balance
+atm(100,200)
